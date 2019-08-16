@@ -1,6 +1,6 @@
 # spongebobify-text
 Simple, browser-based interface for sPonGEbOBifYinG tEXt input.
-Built as a Chrome Extension. Also deployed as a [website](sms-ned16.github.io/spongebobify-text).
+Built as a Chrome Extension. Also deployed as a [website](https://sms-ned16.github.io/spongebobify-text/).
 
 ## Why?
 This project started out as a simple `javascript` file that I was using to practice functional programming with arrow functions and `map`. I then decided that something like this would be more useful if packaged as a Google Chrome extension.
