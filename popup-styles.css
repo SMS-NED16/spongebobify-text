@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+	font-family: Robot;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFF;
+	font-family: Lato, sans-serif;
+	background-color: #ecf0f1;
+	text-align: center;
+}
+
+textarea {
+	padding: 10px;
+	margin: 20px;
+	width: 80%;
+	font-size: 16px;
+	font-family: Lato, sans-serif;
+	resize: none;
+	display: block;
+}
+
+#outputDiv {
+	font-family: Lato, sans-serif;
+	padding: 10px;
+	border: 1px solid steelblue;
+	margin: 10px;
+	width: 80%;
+	font-size: 16px;
+	text-align: center;
+}
+
+button {
+	background-color: steelblue;
+	color: #FFF;
+	font-family: Lato, sans-serif;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	outline: none;
+	letter-spacing: 0.1em;
+
+	/*For animating the button*/
+	position: relative;
+	box-shadow: 0 6px #efa424;
+}
+
+button:hover {
+	top: 2px;
+	box-shadow: 0 4px #efa424;
+}
+
+button:active {
+	top: 4px;
+	box-shadow: none;
+}
